@@ -6,6 +6,7 @@
 body {
     margin: 0 25px;
     background-color: #000000;
+   /* background: #000000 url("/assets/images/Tool Background1.jpg") no-repeat center;*/
     color: #6A5ACD;
 }
 
@@ -25,6 +26,17 @@ body {
 }
 
 /*--Body--*/
+
+.jumbotron {
+   background: #000000 url(/assets/images/tool-hero-image.png) no-repeat center;
+   height: 300px;
+}
+
+/*.container-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}*/
 
 /*--Footer--*/
 
@@ -52,5 +64,4 @@ body {
 
 
 @media (min-width: 768px) {
-    
 }
