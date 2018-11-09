@@ -1,13 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Kodchasan');
 
 
-/*--Colors--*/
+/*--Colors and Margins--*/
 
 body {
-    margin: 0 25px;
+    margin: 0 20px;
     background-color: #000000;
    /* background: #000000 url("/assets/images/Tool Background1.jpg") no-repeat center;*/
     color: #6A5ACD;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-bottom: 40px;
 }
 
 .navbar-nav li a {
@@ -30,13 +44,18 @@ body {
 .jumbotron {
    background: #000000 url(/assets/images/tool-hero-image.png) no-repeat center;
    height: 300px;
+   margin-bottom: 20px;
 }
 
-/*.container-link {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+/*table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    width: 20%;
 }*/
+
 
 /*--Footer--*/
 
@@ -61,7 +80,6 @@ body {
     font-size: 20px;
     color: #6A5ACD;
 }
-
 
 @media (min-width: 768px) {
 }
