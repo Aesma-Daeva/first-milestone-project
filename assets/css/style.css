@@ -23,6 +23,11 @@ h3 {
     color: #6495ED;
 }
 
+.card {
+    background-color: transparent;
+    /*background-color: rgba(153,153,255,0.2);*/
+}
+
 .container {
     margin-bottom: 40px;
 }
