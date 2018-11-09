@@ -55,19 +55,59 @@
         </div>
     </header>
     <section>
-        <div class="jumbotron">
-            <div class="container"></div>
+        <div id="toolcarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#toolcarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#toolcarousel" data-slide-to="1"></li>
+                <li data-target="#toolcarousel" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-responsive center-block" src="/assets/images/media/tool-media01.png" alt="Los Angeles" width="480" height="360">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="img-responsive center-block" src="/assets/images/media/tool-media02.png" alt="Chicago" width="480" height="360">
+                    <div class="carousel-caption">
+                        <h3>Chicago</h3>
+                        <p>Spiral Out, Chicago!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="img-responsive center-block" src="/assets/images/media/tool-media03.png" alt="New York" width="480" height="360">
+                    <div class="carousel-caption">
+                        <h3>New York</h3>
+                        <p>We had a blast at the Big Apple!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#toolcarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+            <a class="carousel-control-next" href="#toolcarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
+
         <h2 class="text-center">Euro Tour</h2>
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 mx-auto">
                     Date
                 </div>
-                <div class="col-4">
+                <div class="col-4 mx-auto">
                     Venue
                 </div>
-                <div class="col-4">
+                <div class="col-4 mx-auto">
                     Country
                 </div>
             </div>

@@ -3,21 +3,24 @@
 
 /*--Colors and Margins--*/
 
+
 body {
     margin: 0 20px;
     background-color: #000000;
    /* background: #000000 url("/assets/images/Tool Background1.jpg") no-repeat center;*/
-    color: #6A5ACD;
+    color: #ffffff;
 }
 
 h2 {
     font-size: 20px;
     margin-bottom: 20px;
+    color: #6495ED;
 }
 
 h3 {
     font-size: 16px;
     margin-bottom: 20px;
+    color: #6495ED;
 }
 
 .container {
@@ -25,7 +28,7 @@ h3 {
 }
 
 .navbar-nav li a {
-    color: #6A5ACD;
+    color: #6495ED;
 }
 
 /*--Header--*/
@@ -36,7 +39,7 @@ h3 {
 }
 
 .navbar-toggler {
-    color: #6A5ACD;
+    color: #6495ED;
 }
 
 /*--Body--*/
@@ -45,6 +48,12 @@ h3 {
    background: #000000 url(/assets/images/tool-hero-image.png) no-repeat center;
    height: 300px;
    margin-bottom: 20px;
+}
+
+.carousel-item {
+  text-align: center;
+  height: 360px;
+  background-color: #000000;
 }
 
 /*table {
@@ -62,7 +71,7 @@ td {
 .social {
     text-align: center;
     display: inline-block;
-    color: #6A5ACD;
+    color: #6495ED;
 }
 
 .social-links {
@@ -78,8 +87,8 @@ td {
     height: 30px;
     padding: 15px 0;
     font-size: 20px;
-    color: #6A5ACD;
+    color: #6495ED;
 }
 
-@media (min-width: 768px) {
-}
+@media (min-width: 576px) {
+    }
