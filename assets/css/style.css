@@ -73,7 +73,7 @@ a:link {
 /*===Body===*/
 
 .jumbotron {
-   background: transparent url(/assets/images/mandala.gif) repeat center;
+   background: transparent url(./assets/images/mandala.gif) repeat center;
    background-size: contain;
    height: 100%;
 }
