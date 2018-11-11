@@ -30,6 +30,7 @@ img:hover {
 
 .container-background {
     background-color: rgba(102,102,255,0.1);
+    padding-top: 20px;
 }
 
 .container-form {
@@ -72,22 +73,23 @@ a:link {
 /*===Body===*/
 
 .jumbotron {
-   background: #000000 url(/assets/images/mandala.gif) repeat center;
-   height: 600px;
-   margin-bottom: 20px;
+   background: transparent url(/assets/images/mandala.gif) repeat center;
+   background-size: contain;
+   height: 100%;
 }
 
 .carousel-item {
   text-align: center;
-  height: 360px;
+  /*height: 360px;*/
+  height: 100%;
   background-color: transparent;
   margin-bottom: 20px;
 }
 
-.iframe {
+/*.iframe {
     width: 400px;
     height: 300px;
-}
+}*/
 
 
 /*===Footer===*/
