@@ -24,6 +24,10 @@ img:hover {
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
+.navbar{ 
+    background-image: none;
+}
+
 .container-background {
     background-color: rgba(102,102,255,0.1);
 }
@@ -42,14 +46,11 @@ img:hover {
     margin-bottom: 30px;
 }
 
-.navbar-nav li a {
-    color: #6495ED;
-}
-
 /*--Link and Hover Styles--*/
 
 a:link {
     text-decoration: none;
+    color: #6495ED;
 }
 
 /*===Header===*/
@@ -57,9 +58,14 @@ a:link {
 .navbar-container {
     display: flex;
     justify-content: center;
+    color: #6495ED;
 }
 
-.navbar-toggler {
+.nav-link {
+   color: #6495ED; 
+}
+
+.navbar-dark .navbar-nav .nav-link {
     color: #6495ED;
 }
 
@@ -106,6 +112,30 @@ a:link {
     padding: 15px 0;
     font-size: 20px;
     color: #6495ED;
+}
+
+/*div .fixed-btn {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+}*/
+
+a.back-to-top {
+background: transparent;
+margin: 0;
+position: fixed;
+bottom: 0;
+right: 0;
+width: 70px;
+height: 70px;
+z-index: 100;
+display: none;
+text-decoration: none;
+color: #6495ED;
+}
+
+.back-to-top i {
+  font-size: 60px;
 }
 
 /*===Media Queries===*/
