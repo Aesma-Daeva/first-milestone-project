@@ -7,11 +7,12 @@ body {
     margin: 20px 20px 30px;
     background-color: #000000;
     color: #ffffff;
-    text-align: center;
+    background: transparent url(https://i.imgur.com/h4boHei.jpg) repeat center;
+    background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5 {
-    color: #6495ED;
+    color: #B0E0E6;
 }
 
 img {
@@ -51,7 +52,7 @@ img:hover {
 
 a:link {
     text-decoration: none;
-    color: #6495ED;
+    color: #B0E0E6;
 }
 
 /*===Header===*/
@@ -59,37 +60,38 @@ a:link {
 .navbar-container {
     display: flex;
     justify-content: center;
-    color: #6495ED;
+    color: #F0F8FF;
 }
 
 .nav-link {
-   color: #6495ED; 
+   color: #F0F8FF; 
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #6495ED;
+    color: #F0F8FF;
 }
 
 /*===Body===*/
 
 .jumbotron {
-   background: transparent url("https://media.giphy.com/media/3o7aDc56CmSiY1jC3S/giphy.gif") repeat center;
+   /*background: transparent url("https://media.giphy.com/media/3o7aDc56CmSiY1jC3S/giphy.gif") repeat center;
    background-size: contain;
+   height: 100%;*/
+   background-color: transparent;
    height: 100%;
 }
 
 .carousel-item {
   text-align: center;
-  /*height: 360px;*/
   height: 100%;
   background-color: transparent;
   margin-bottom: 20px;
 }
 
-/*.iframe {
-    width: 400px;
-    height: 300px;
-}*/
+.container-link {
+ text-align: center;   
+}
+
 
 
 /*===Footer===*/
@@ -97,7 +99,7 @@ a:link {
 .social {
     text-align: center;
     display: inline-block;
-    color: #6495ED;
+    color: #B0E0E6;
 }
 
 .social-links {
@@ -105,7 +107,7 @@ a:link {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: #6495ED;
+    color: #B0E0E6;
 }
 
 .social-links li a i {
@@ -113,32 +115,9 @@ a:link {
     height: 30px;
     padding: 15px 0;
     font-size: 20px;
-    color: #6495ED;
+    color: #B0E0E6;
 }
 
-/*div .fixed-btn {
-    position:fixed;
-    bottom: 0;
-    right: 0;
-}*/
-
-a.back-to-top {
-background: transparent;
-margin: 0;
-position: fixed;
-bottom: 0;
-right: 0;
-width: 70px;
-height: 70px;
-z-index: 100;
-display: none;
-text-decoration: none;
-color: #6495ED;
-}
-
-.back-to-top i {
-  font-size: 60px;
-}
 
 /*===Media Queries===*/
 
