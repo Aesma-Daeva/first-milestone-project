@@ -55,8 +55,7 @@
         </div>
     </header>
     <section>
-        <div id="container-vh">
-        </div>
+        <div class="jumbotron"></div>
         <h1 class="text-center">The Band</h1>
         <br />
         <br />
@@ -64,7 +63,7 @@
         <br />
         <br />
         <!--Band Member's Images-->
-        <div class="container">
+        <div class="container-fluid container-background">
             <div class="row text-center">
                 <div class="col-md-3">
                     <picture>
@@ -133,19 +132,44 @@
         </div>
     </section>
     <footer>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col">
+        <div class="container-fluid">
+            <div class="row justify-content-left">
+                <div class="col-md-4">
+                    <p class="small">by Marie Obradovic.<br /> This page is for educational purposes only <br />and not for commercial use.<br /> Credits goes to the band & to the artist.</p>
+                </div>
+                <div class="col-md-4">
                     <ul class="list-inline social-links">
-                        <li><a target="_blank " href="# "><i class="fa fa-facebook"></i></a></li>
-                        <li><a target="_blank " href="# "><i class="fa fa-spotify"></i></a></li>
-                        <li><a target="_blank " href="# "><i class="fa fa-youtube"></i></a></li>
-                        <li><a target="_blank " href="# "><i class="fa fa-instagram"></i></a></li>
-                        <li><a target="_blank " href="# "><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank " href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank " href="https://www.spotify.com/"><i class="fa fa-spotify"></i></a></li>
+                        <li><a target="_blank " href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+                        <li><a target="_blank " href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank " href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
+        <!--Back to Top Button-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() { scrollFunction() };
+        
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                }
+                else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+        
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
