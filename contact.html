@@ -55,37 +55,29 @@
         </div>
     </header>
     <section>
-        <!--Jumbotron-->
-        <div class="jumbotron text-center">
-            <div><p>&nbsp;</p></div>
-            <div><p>&nbsp;</p></div>
-            <div><p>&nbsp;</p></div>
-            <div><p>&nbsp;</p></div>
-            <div><p>&nbsp;</p></div>
-            <div><p>&nbsp;</p></div>
-            <div><p>&nbsp;</p></div>
+       <div id="container-vh">
         </div>
-        <h2 class="text-center">Contact Us</h2>
-        <p class="text-center">We'd love to hear from you!
+        <h1 class="text-center">Contact Us</h1>
+        <p class="text-center">We'd love to hear from you!</p>
             <p class="text-center lead">We accept bookings for major music events in your country.</p>
             <p class="text-center">If we're not on a tour, we can play for special events like a fan's wedding. We're thinking of doing it for one lucky fan once a year.<br /> We also play at fundraising events for a good cause. Don't hesistate to contact us about that. We'd
                 love to help!</p>
 
             <div class="container container-form">
-                <form>
+                <form action="/action_page.php">
                     <div class="form-group">
                         <label for="usr">Name</label>
-                        <input type="text" class="form-control" id="usr" placeholder="Name">
+                        <input type="text" class="form-control" id="usr" placeholder="Name" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="text" class="form-control" id="email" placeholder="Email">
+                        <input type="email" class="form-control" id="email" placeholder="Email" required>
                     </div>
                     <div class="form-group">
                         <label for="textarea">Your Message</label>
-                        <textarea class="form-control" id="textarea" rows="3"></textarea>
+                        <textarea class="form-control" id="textarea" rows="3" required></textarea>
                     </div>
-                    <input class="btn btn-primary" type="submit" value="Submit">
+                    <a href="thanks.html" class="btn btn-primary" role="button">Submit</a>
                 </form>
             </div>
     </section>

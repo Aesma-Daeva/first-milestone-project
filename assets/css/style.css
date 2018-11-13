@@ -3,9 +3,10 @@
 
 /*===Colors and Margins===*/
 
-body {
-    margin: 20px 20px 30px;
-    background-color: #000000;
+html, body {
+    /*margin: 20px 20px 30px;*/
+    margin:0;
+    padding: 0;
     color: #ffffff;
     background: transparent url(https://i.imgur.com/h4boHei.jpg) repeat center;
     background-attachment: fixed;
@@ -30,8 +31,9 @@ img:hover {
 }
 
 .container-background {
-    background-color: rgba(102,102,255,0.1);
-    padding-top: 20px;
+    /*background-color: rgba(102,102,255,0.1);*/
+    background-color: rgba(17,17,17,0.3);
+    padding: 20px;
 }
 
 .container-form {
@@ -41,7 +43,7 @@ img:hover {
     height: 50%;
 }
 .card {
-    background-color: transparent;
+    background-color: rgba(17,17,17,0.3);
 }
 
 .container {
@@ -77,10 +79,17 @@ a:link {
 
 /*===Body===*/
 
+/*--Jumbotron--*/
 .jumbotron {
    background-color: transparent;
    height: 100%;
 }
+
+#container-vh {
+    background-color: transparent;
+    height: 60vh;
+}
+
 
 /*--Carousel--*/
 #toolcarousel {
