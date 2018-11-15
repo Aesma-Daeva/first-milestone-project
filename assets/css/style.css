@@ -2,7 +2,6 @@
 
 
 /*===Colors and Margins===*/
-
 html, body {
     font-family: 'Noto Sans',serif;
     color: #ffffff;
@@ -14,6 +13,7 @@ html, body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,7 +64,7 @@ a:link {
     color: #B0E0E6;
 }
 
-.figure-caption > a {
+.figure-caption {
     color: #B0E0E6;
 }
 
@@ -73,14 +73,16 @@ a:link {
 .navbar-container {
     display: flex;
     justify-content: center;
-    color: #B0E0E6;
-}
-
-.navbar-container > nav > button {
-    margin: auto;
+    /*color: #B0E0E6;*/
+    font-weight: 700;
 }
 
 /*--My Mentor, Chris Z. helped me fix the navbar alignment--*/
+.navbar-container > nav > button {
+    margin: auto;
+    background-color: #5c5c90;
+}
+
 #navbarToggler > ul {
     text-align: center;
 }
@@ -88,6 +90,12 @@ a:link {
 #navbarToggler > ul > li > a{
     color: #B0E0E6;
     font-size: 1.25rem;
+}
+
+#navbarToggler > ul > li > a:hover {
+    color:  #5B5BD8;
+    background-color: rgba(68,68,68,0.2);
+    transition-duration: 0.5s;
 }
 
 /*===Body===*/
@@ -124,14 +132,13 @@ a:link {
  text-align: center;   
 }
 
-
 /*===Footer===*/
 
-.social {
+/*.social {
     text-align: center;
     display: inline-block;
-    color: #B0E0E6;
-}
+    color: #5B5BD8;
+}*/
 
 .social-links {
     text-align: center;
@@ -139,7 +146,7 @@ a:link {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #B0E0E6;
+    color: #5B5BD8;
 }
 
 .social-links > li > a > i {
@@ -148,6 +155,12 @@ a:link {
     padding: 15px 0;
     font-size: 20px;
     color: #B0E0E6;
+}
+
+.social-links > li > a > i:hover {
+    color:  #5B5BD8;
+    background-color: rgba(68,68,68,0.2);
+    transition-duration: 0.5s;
 }
 
 /*==Back to Top==*/
@@ -161,7 +174,7 @@ a:link {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: rgba(102,153,255,0.2);
+    background-color: #5c5c90;
     color: #ffffff;
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 10px;
@@ -170,7 +183,7 @@ a:link {
 }
 
 #myBtn:hover {
-    background-color: rgba(51,204,255,0.2);
+    background-color: #5B5BD8;
 }
 
 /*===Media Queries===*/
@@ -185,11 +198,24 @@ a:link {
     width: 100%;
     height: 100%;
     }
+    
+    #navbarToggler > ul > li > a{
+    font-size: 1rem;
+}
 }
 
 /*--Samsung Galaxy S5--*/
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) {
 /* Styles */
+
+.body {
+     background-attachment: scroll;
+    }
+    
+.jumbotron {
+      background-attachment: scroll;  
+    }
+
 .container-form {
     padding: 0;
     background-color: rgba(102,102,255,0.1);
@@ -197,9 +223,13 @@ a:link {
     width: 100%;
     height: 100%;
     }
+    
+.table {
+    max-width: 80%;
+}
 }
 
-/* Turn off parallax scrolling for all tablets and phones.*/
+/* Turn off scrolling for all tablets and phones.*/
 @media only screen and (max-device-width: 1366px) {
     .body {
         background-attachment: scroll;
