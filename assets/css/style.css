@@ -235,6 +235,6 @@ a:link {
         background-attachment: scroll;
     }
     .jumbotron {
-      background-attachment: scroll;  
+      background-attachment: fixed;  
     }
 }
