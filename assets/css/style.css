@@ -8,7 +8,7 @@ html, body {
     margin:0;
     padding: 0;
     height: 100%;
-    background: #000000 url(../images/tool-eyes-bg.png) no-repeat center center fixed;
+    background: #000000 url(../images/tool-eyes-bg.png) repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -236,7 +236,7 @@ html {
 
 .container-form {
     padding: 0;
-    background-color: rgba(102,102,255,0.1);
+    background-color: rgba(17,17,17,0.5);
     text-align: left;
     width: 80%;
     height: 80%;
@@ -269,7 +269,7 @@ html {
 
 .container-form {
     padding: 0;
-    background-color: rgba(102,102,255,0.1);
+    background-color: rgba(17,17,17,0.5);
     text-align: left;
     width: 80%;
     height: 80%;
