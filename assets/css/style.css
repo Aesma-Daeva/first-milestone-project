@@ -8,7 +8,7 @@ html, body {
     margin:0;
     padding: 0;
     height: 100%;
-    background: #71708a url(../images/tool-eyes-bg.png) no-repeat center center fixed;
+    background: #000000 url(../images/tool-eyes-bg.png) no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -238,17 +238,18 @@ html {
     padding: 0;
     background-color: rgba(102,102,255,0.1);
     text-align: left;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     }
     
     #navbarToggler > ul > li > a {
     font-size: 1rem;
     }
-    
+}
+
 /*--Samsung Galaxy S5--*/
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) {
-/* Styles */
+/*--Styles--*/
 
 .body {
      background-attachment: scroll;
@@ -270,8 +271,8 @@ html {
     padding: 0;
     background-color: rgba(102,102,255,0.1);
     text-align: left;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     }
     
     #navbarToggler > ul > li > a{
