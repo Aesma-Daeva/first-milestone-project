@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:100, 200, 300, 400, 500, 600, 700,800');
 
 
 /*===Colors and Margins===*/
@@ -8,7 +8,7 @@ html, body {
     margin:0;
     padding: 0;
     height: 100%;
-    background: transparent url(../images/tool-eyes-bg.png) no-repeat center center fixed;
+    background: #71708a url(../images/tool-eyes-bg.png) no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -44,9 +44,10 @@ img:hover {
 
 .container-background {
     background-color: rgba(17,17,17,0.5);
-    /*background-color: rgba(68,68,68,0.2);*/ /*gray*/
     border-radius: 15px;
     padding: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .container-form {
@@ -66,14 +67,21 @@ a:link {
 
 .figure-caption {
     color: #B0E0E6;
+    font-weight: 600;
 }
+
+.figure-caption:hover {
+    color:  #5B5BD8;
+    transition-duration: 0.5s;
+    font-weight: 100;
+}
+
 
 /*===Header===*/
 
 .navbar-container {
     display: flex;
     justify-content: center;
-    /*color: #B0E0E6;*/
     font-weight: 700;
 }
 
@@ -94,6 +102,7 @@ a:link {
 
 #navbarToggler > ul > li > a:hover {
     color:  #5B5BD8;
+    font-weight: 500;
     background-color: rgba(68,68,68,0.2);
     transition-duration: 0.5s;
 }
@@ -111,7 +120,6 @@ a:link {
    
 }
 
-
 /*--Carousel--*/
 #toolcarousel {
     background-color: transparent;
@@ -126,10 +134,6 @@ a:link {
 
 .img-responsive {
     width: 100%;
-}
-
-.container-link {
- text-align: center;   
 }
 
 /*===Footer===*/
@@ -184,13 +188,84 @@ a:link {
 
 #myBtn:hover {
     background-color: #5B5BD8;
+    transition-duration: 0.5s;
 }
 
 /*===Media Queries===*/
 
+/*--Responsive Typography--*/
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 0.5rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 0.75rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.5rem;
+  }
+}
+
+/*--iPad--*/
+/*--For Album Alignment--*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+#container-album {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    }
+}
+
 /*--iPhone X--*/
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px){
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) {
 /* Styles */
+
+.container-form {
+    padding: 0;
+    background-color: rgba(102,102,255,0.1);
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    }
+    
+    #navbarToggler > ul > li > a {
+    font-size: 1rem;
+    }
+    
+/*--Samsung Galaxy S5--*/
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) {
+/* Styles */
+
+.body {
+     background-attachment: scroll;
+     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    }
+    
+.jumbotron {
+      background-attachment: scroll;
+      background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    }
+
 .container-form {
     padding: 0;
     background-color: rgba(102,102,255,0.1);
@@ -200,41 +275,24 @@ a:link {
     }
     
     #navbarToggler > ul > li > a{
-    font-size: 1rem;
-}
-}
-
-/*--Samsung Galaxy S5--*/
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) {
-/* Styles */
-
-.body {
-     background-attachment: scroll;
+    font-size: 0.80rem;
     }
-    
-.jumbotron {
-      background-attachment: scroll;  
-    }
-
-.container-form {
-    padding: 0;
-    background-color: rgba(102,102,255,0.1);
-    text-align: left;
-    width: 100%;
-    height: 100%;
-    }
-    
-.table {
-    max-width: 80%;
-}
 }
 
-/* Turn off scrolling for all tablets and phones.*/
+/* Turn off jumbotron effect for all tablets and phones.*/
 @media only screen and (max-device-width: 1366px) {
     .body {
         background-attachment: scroll;
+        background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     }
     .jumbotron {
-      background-attachment: fixed;  
+      background-attachment: scroll; 
+      background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
     }
 }
