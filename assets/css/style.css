@@ -40,6 +40,11 @@ img:hover {
     height: auto;
 }
 
+figcaption {
+    color: #B0E0E6;
+    font-weight: 600;
+}
+
 /*==Container Setting==*/
 
 .container-background {
@@ -65,12 +70,12 @@ a:link {
     color: #B0E0E6;
 }
 
-.figure-caption {
+a {
     color: #B0E0E6;
     font-weight: 600;
 }
 
-.figure-caption:hover {
+a:hover {
     color:  #5B5BD8;
     transition-duration: 0.5s;
     font-weight: 100;
