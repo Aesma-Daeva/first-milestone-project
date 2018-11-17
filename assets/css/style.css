@@ -201,28 +201,22 @@ a:hover {
 
 /*===Media Queries===*/
 
-/*--Responsive Typography--*/
-
-html {
-  font-size: 1rem;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 0.5rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 0.75rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.5rem;
-  }
+/* Turn off jumbotron effect for all tablets and phones.*/
+@media only screen and (max-device-width: 1366px) {
+    .body {
+        background-attachment: scroll;
+        background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    }
+    .jumbotron {
+      background-attachment: scroll; 
+      background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    }
 }
 
 /*--iPad--*/
@@ -277,23 +271,5 @@ html {
     
     #navbarToggler > ul > li > a{
     font-size: 0.80rem;
-    }
-}
-
-/* Turn off jumbotron effect for all tablets and phones.*/
-@media only screen and (max-device-width: 1366px) {
-    .body {
-        background-attachment: scroll;
-        background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    }
-    .jumbotron {
-      background-attachment: scroll; 
-      background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
     }
 }
