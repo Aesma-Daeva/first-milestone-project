@@ -43,19 +43,21 @@ User stories:
 ## Features Left to Implement
 
 * Additional page dedicated for selling merchandise might be implemented in the near future.
+* One colleague recommended a link to Google maps for tour venues. I like that idea.
+* He also mentioned automatically adding tour dates to calendar. That is also a good feature to add in the future. (Thanks, Sipo!)
 
 - - - -
 
 ## Technologies Used
 
 The technologies I used are:
-*HTML5 is the markup language used for rendering the website.
+* HTML5 is the markup language used for rendering the website.
 [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
-*CSS3 is the style sheet language used to style the HTML website.
+* CSS3 is the style sheet language used to style the HTML website.
 [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
 
-*Bootstrap 4 Framework for the mobile responsiveness and grid layout of the website. 
+* Bootstrap 4 Framework for the mobile responsiveness and grid layout of the website. 
 I also used Bootstrap's core CSS for most of the styling and layout, buttons and forms; its core JavaScript for the carousel (image gallery slider) and the hamburger button.
 [Bootstrap 4](https://getbootstrap.com/)
 
@@ -72,7 +74,7 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
 4. Contact form works as intended. 
    1. Go to 'Contact Us' page.
    2. If user does not type a name, user will get a reminder, "Please fill out this field".
-   3. Email needs to include @ sign and a domain. If user clicks submit without a @ sign, user will get a message, "Please include an '@" in the email address. 'user's input' is missing an '@'.
+   3. Email needs to include @ sign and a domain. If user clicks submit without an @ sign, user will get a message, "Please include an '@' in the email address. 'user's input' is missing an '@'.
    4. User also needs to enter a domain name for email address. If user forgets to type domain name after '@' sign, there will be a reminder saying, "Please enter a part following '@'. 'userinput@ is incomplete"
    5. If user does not type anything at the text area field, user will also be prompted to type something. User will get a reminder, "Please fill out this field".
    6. Once message is sent, there will be confirmation that message was sent. "Thank you for your message!"
@@ -80,6 +82,7 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
 5. The website is responsive on majority of mobile devices. 
 
 6. There is a parallax effect on desktop that is disabled for mobile devices but the problem now is there appears to be two background images overlapping when you scroll up the page. I still haven't figured out how to fix it.
+   According to [this w3s article](https://www.w3schools.com/howto/howto_css_parallax.asp) the media query should disable the effect but the issue still persist.
 
 - - - -
 
