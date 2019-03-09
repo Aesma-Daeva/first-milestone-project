@@ -1,7 +1,7 @@
 # Milestone Project 1 
 ## Create a Band's Webpage
 
-[Marie's Deployed Band Website Project](https://marie-o.github.io/first-milestone-project/index.html)
+[Marie's Deployed Band Website Project](https://Aesma-Daeva.github.io/first-milestone-project/index.html)
 
 Hi! This project is about making a band's static and front-end only webpage that will include the band's images, songs and videos.
 The page also serves as a means to contact the band for bookings and  to increase their social media fan base.
