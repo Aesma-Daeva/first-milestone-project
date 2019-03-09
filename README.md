@@ -14,7 +14,7 @@ Credits goes to the band - Tool and the artists - Cam de Leon and Alex Grey.
 ## UX
 
 The website is intended for the band's fan base for sharing news, tour venues, album info with song demos, media files with photos and videos and information about the band. The page also provides a way to contact them.
-Here is the [link to Mockup](https://github.com/Marie-O/first-milestone-project/blob/master/mockup/marie-o-project01-mockup.pdf).
+Here is the [link to Mockup](https://github.com/Aesma-Daeva/first-milestone-project/blob/master/mockup/marie-o-project01-mockup.pdf).
 
 User stories:
 
@@ -69,7 +69,7 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
 
 2. Used [CSS3 Validator](https://jigsaw.w3.org/css-validator/) to check CSS3 for any errors. "Congratulations! No Error Found. This document validates as CSS level 3 + SVG !"
 
-3. I ran my page on [wed.dev](https://web.dev/) and this is the [report](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://marie-o.github.io/first-milestone-project/).
+3. I ran my page on [web.dev](https://web.dev/) and this is the [report](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://marie-o.github.io/first-milestone-project/).
 
 4. Contact form works as intended. 
    1. Go to 'Contact Us' page.
@@ -88,7 +88,7 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
 
 ## Deployment
 
-* This website is deployed here at Github. [Band Website Project](https://marie-o.github.io/first-milestone-project/).
+* This website is deployed here at Github. [Band Website Project](https:/Aesma-Daeva.github.io/first-milestone-project/).
 * There's no difference between the deployed version and development version.
 * No separate git branches either.
 * Just click the link provided here to view the website. Nothing else needed to run it.
