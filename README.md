@@ -88,7 +88,7 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
 
 ## Deployment
 
-* This website is deployed here at Github. [Band Website Project](https:/Aesma-Daeva.github.io/first-milestone-project/).
+* This website is deployed here at Github. [Band Website Project](https://aesma-daeva.github.io/first-milestone-project/).
 * There's no difference between the deployed version and development version.
 * No separate git branches either.
 * Just click the link provided here to view the website. Nothing else needed to run it.
